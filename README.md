@@ -32,7 +32,7 @@ New-ItemProperty -Path HKCU:\Software\Microsoft\Office\16.0\Common\ExperimentCon
 
 8. #### Перейти в папку с установщиком(в powershell)
 
-9. #### Запустить установщик с кастомной конфигурацией из репозитория. Данный конфиг содержит только excel, word и powerpoint. При желании можете создать свою конфигурацию и заменить в её на сайте майков https://config.office.com/deploymentsettings.
+9. #### Запустить установщик с кастомной конфигурацией из репозитория. Данный конфиг содержит только excel, word и powerpoint. При желании можете создать свою конфигурацию в её на сайте майков https://config.office.com/deploymentsettings и заменить её
 
 .\Setup.exe /configure o365_custom_configuration.xml
 
