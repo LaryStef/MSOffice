@@ -8,7 +8,7 @@ git clone https://github.com/LaryStef/MSOffice.git
 
 2. #### Открыть powershell **от имени админитратора!!!**
 
-3. #### При желании сделать бэкап реестра в temp
+3. #### При большом желании сделать бэкап реестра в temp
 
 reg export HKCU\SOFTWARE\Microsoft\Office\16.0\Common\Experiment $ENV:temp\Experiment.reg
 
@@ -26,9 +26,9 @@ New-ItemProperty -Path HKCU:\Software\Microsoft\Office\16.0\Common\ExperimentCon
 
 6. #### Удалить с устройства установленный MS Office, если такой имеется
 
-7. #### Перейти в папку с установщиком
+7. #### Перейти в папку с установщиком(в powershell)
 
-8. #### Pапустить установщик с кастомной конфигурацией. Данный конфиг содержит excel, word и powerpoint. При желании можете создать свою конфигурацию и заменить в папке(https://config.office.com/deploymentsettings).
+8. #### Запустить установщик с кастомной конфигурацией из репозитория. Данный конфиг содержит только excel, word и powerpoint. При желании можете создать свою конфигурацию и заменить в её на сайте майков https://config.office.com/deploymentsettings.
 
 .\Setup.exe /configure o365_custom_configuration.xml
 
