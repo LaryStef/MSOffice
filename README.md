@@ -36,6 +36,8 @@ New-ItemProperty -Path HKCU:\Software\Microsoft\Office\16.0\Common\ExperimentCon
 
 .\Setup.exe /configure o365_custom_configuration.xml
 
-10. #### Вернуть старый гео при необходимости
+10. #### Активировать через MAS с помощью Ohook(https://github.com/massgravel/Microsoft-Activation-Scripts).
+
+11. #### Вернуть старый гео при необходимости
 
 Set-WinHomeLocation -GeoId $oldGeo
